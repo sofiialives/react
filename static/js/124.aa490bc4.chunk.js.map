@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/124.aa490bc4.chunk.js","mappings":"0IAMA,QAJA,WACE,OAAOA,EAAAA,EAAAA,KAAA,SACT,C","sources":["pages/Blog/Blog.jsx"],"sourcesContent":["import React from \"react\";\r\n\r\nfunction Blog() {\r\n  return <div></div>;\r\n}\r\n\r\nexport default Blog;\r\n"],"names":["_jsx"],"sourceRoot":""}
