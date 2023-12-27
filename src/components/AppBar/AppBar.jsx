@@ -1,26 +1,18 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import { Link } from "./LinkSection/Link";
 
 function AppBar() {
   return (
     <header style={{ backgroundColor: "black" }}>
+      <NavLink to="/">
+        <img src="" alt="logo" />
+      </NavLink>
       <nav>
         <NavLink to="/"></NavLink>
-        <ul>
-          <li>
-            <NavLink to="/">Home</NavLink>
-          </li>
-          <li>
-            <NavLink to="/blog">Blog</NavLink>
-          </li>
-          <li>
-            <NavLink to="/about">About us</NavLink>
-          </li>
-          <li>
-            <NavLink to="/contacts">Contact us</NavLink>
-          </li>
-        </ul>
+        <Link />
       </nav>
+      <button type="button">Subscribe</button>
     </header>
   );
 }
