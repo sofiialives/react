@@ -1,12 +1,13 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { Link } from "./LinkSection/Link";
+import Logo from "../../img/icons/Logo";
 
 function AppBar() {
   return (
     <header style={{ backgroundColor: "black" }}>
       <NavLink to="/">
-        <img src="" alt="logo" />
+        <Logo />
       </NavLink>
       <nav>
         <NavLink to="/"></NavLink>

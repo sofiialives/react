@@ -6,9 +6,7 @@ export default function CategoryList() {
     <ul>
       {categories.map((item, index) => (
         <li key={index}>
-          <svg>
-            <use href={item.icon}></use>
-          </svg>
+          {item.icon}
           <h3>{item.title}</h3>
           <p>{item.text}</p>
         </li>

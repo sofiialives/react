@@ -3,17 +3,18 @@ import { AllPostsList } from "./AllPostsList";
 import { Featured } from "./FeaturedSection/Featured";
 
 export function Feature() {
+  const section = [
+    { title: "Featured Post", component: <Featured /> },
+    { title: "All Posts", component: <AllPostsList /> },
+  ];
   return (
     <section>
-      <section>
-        <h2>Featured Post</h2>
-        <Featured />
-      </section>
-      {/* All Posts */}
-      <section>
-        <h2>All Posts</h2>
-        <AllPostsList />
-      </section>
+      {section.map((item, index) => (
+        <section key={index}>
+          <h2>{item.title}</h2>
+          {item.component}
+        </section>
+      ))}
     </section>
   );
 }

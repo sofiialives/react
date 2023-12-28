@@ -6,11 +6,7 @@ export function LogoList() {
     <ul>
       {icons.map((item, index) => (
         <li key={index}>
-          <a href={item.link}>
-            <svg>
-              <use href=""></use>
-            </svg>
-          </a>
+          <a href={item.link}>{item.icon}</a>
         </li>
       ))}
     </ul>

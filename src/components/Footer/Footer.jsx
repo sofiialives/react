@@ -3,12 +3,13 @@ import { NavLink } from "react-router-dom";
 import { Subscribe } from "./SubscribeSection/Subscribe";
 import { List } from "./ListSection/List";
 import { IconList } from "./IconListSection/IconList";
+import Logo from "../../icons/Logo";
 
 export function Footer() {
   return (
     <footer>
       <NavLink to="/">
-        <img src="" alt="logo" />
+        <Logo />
       </NavLink>
       <List />
       <Subscribe />

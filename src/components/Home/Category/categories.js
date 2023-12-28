@@ -1,21 +1,26 @@
+import CategoryFirst from "../../../icons/CategoryFirst";
+import CategorySecond from "../../../icons/CategorySecond";
+import CategoryThird from "../../../icons/CategoryThird";
+import CategotyFourth from "../../../icons/CategotyFourth";
+
 const categories = [
   {
-    icon: "path1",
+    icon: <CategotyFourth />,
     title: "Business",
     text: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
   },
   {
-    icon: "path2",
+    icon: <CategorySecond />,
     title: "Startup",
     text: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
   },
   {
-    icon: "path3",
+    icon: <CategoryFirst />,
     title: "Economy",
     text: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
   },
   {
-    icon: "path4",
+    icon: <CategoryThird />,
     title: "Technology",
     text: "Lorem ipsum dolor",
   },
