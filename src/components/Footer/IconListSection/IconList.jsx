@@ -6,11 +6,7 @@ export function IconList() {
     <ul>
       {icons.map((item, index) => (
         <li key={index}>
-          <a href={item.to}>
-            <svg>
-              <use></use>
-            </svg>
-          </a>
+          <a href={item.to}>{item.icon}</a>
         </li>
       ))}
     </ul>
