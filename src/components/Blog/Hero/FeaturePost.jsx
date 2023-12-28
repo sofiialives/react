@@ -1,14 +1,12 @@
 import React from "react";
 
-export function Hero() {
+export function FeaturePost() {
   return (
     <section>
+      <p>Featured Post</p>
+      <h2>Step-by-step guide to choosing great font pairs</h2>
       <p>
-        Posted on <strong>startup</strong>
-      </p>
-      <h1>Step-by-step guide to choosing great font pairs</h1>
-      <p>
-        By <span>James West</span> | May 23, 2022
+        By <span>John Doe</span> | May 23, 2022
       </p>
       <p>
         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum

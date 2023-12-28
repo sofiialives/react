@@ -7,7 +7,7 @@ import Logo from "../../icons/Logo";
 
 export function Footer() {
   return (
-    <footer>
+    <footer style={{ backgroundColor: "blue" }}>
       <NavLink to="/">
         <Logo />
       </NavLink>
