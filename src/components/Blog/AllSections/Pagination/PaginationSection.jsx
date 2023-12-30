@@ -1,8 +1,11 @@
 import React, { useState } from "react";
 import sites from "../sites";
 import { PaginationNav } from "./PaginationNav";
+import { NavLink, useLocation } from "react-router-dom";
 
 export default function Pagination() {
+  const location = useLocation();
+
   const [currentPage, setCurrentPage] = useState(1);
   const newsPerPage = 5;
   const lastIndex = currentPage * newsPerPage;
@@ -18,10 +21,12 @@ export default function Pagination() {
         <ul>
           {news.map((item, index) => (
             <li key={index}>
-              <img src={item.picture} alt={item.title} />
-              <p>{item.text}</p>
-              <h2>{item.title}</h2>
-              <p>{item.text}</p>
+              <NavLink to={`/blog/${index}`} state={{ from: location }}>
+                <img src={item.picture} alt={item.title} />
+                <p>{item.text}</p>
+                <h2>{item.title}</h2>
+                <p>{item.text}</p>
+              </NavLink>
             </li>
           ))}
         </ul>
