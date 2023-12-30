@@ -1,5 +1,6 @@
 import React from "react";
 import sites from "../../Blog/AllSections/sites";
+import { NavLink } from "react-router-dom";
 
 export default function OtherList() {
   const randomArray = (array) => {
@@ -20,12 +21,14 @@ export default function OtherList() {
     <ul>
       {slicedSites.map((item, index) => (
         <li key={index}>
-          <img src={item.picture} alt={item.author} />
-          <p>
-            By <span>{item.author}</span> | {item.date}
-          </p>
-          <h3>{item.title}</h3>
-          <p>{item.text}</p>
+          <NavLink to={`/blog/${index}`}>
+            <img src={item.picture} alt={item.author} />
+            <p>
+              By <span>{item.author}</span> | {item.date}
+            </p>
+            <h3>{item.title}</h3>
+            <p>{item.text}</p>
+          </NavLink>
         </li>
       ))}
     </ul>

@@ -1,22 +1,22 @@
 import React from "react";
-import sites from "../../Blog/AllSections/sites";
 import User from "./User";
 import Icon from "./Icon";
+import sites from "../../Blog/AllSections/sites";
 
 export default function Preview({ blogId }) {
-  const blog = sites.find((blog) => blog.author === blogId);
+  console.log(blogId);
+  const blog = sites.find((blog) => blog.id === Number(blogId));
+
+  console.log(blog);
+
   if (!blog) {
-    console.log(
-      "Available author names:",
-      sites.map((blog) => blog.author)
-    );
-    console.log("Provided blogId:", blogId);
     return <div>Blog not found</div>;
   }
+
   return (
     <section key={blogId}>
       <User blog={blog} />
-      <h2>Step-by-step guide to choosing great font pairs</h2>
+      <h2>{blog.title}</h2>
       <Icon blog={blog} />
     </section>
   );

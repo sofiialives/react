@@ -1,5 +1,11 @@
+import CategorySecond from "../../../icons/CategorySecond";
+import CategoryFirst from "../../../icons/CategoryFirst";
+import CategoryThird from "../../../icons/CategoryThird";
+import CategoryFourth from "../../../icons/CategotyFourth";
+
 const sites = [
   {
+    id: 0,
     avatar: "path",
     author: "Andrew Jonson",
     date: "Posted on 27th January 2022",
@@ -9,8 +15,10 @@ const sites = [
     title: "Design tips for designers that cover everything you need",
     text: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
     blog: "text",
+    icon: <CategorySecond />,
   },
   {
+    id: 1,
     avatar: "path",
     author: "Andrew Stockton",
     date: "Posted on 27th January 2022",
@@ -20,8 +28,10 @@ const sites = [
     title: "How to build rapport with your web design clients",
     text: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
     blog: "text",
+    icon: <CategoryFirst />,
   },
   {
+    id: 2,
     avatar: "path",
     author: "Andrew Shevchenko",
     date: "Posted on 27th January 2022",
@@ -31,8 +41,10 @@ const sites = [
     title: "Logo design trends to avoid in 2022",
     text: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
     blog: "text",
+    icon: <CategorySecond />,
   },
   {
+    id: 3,
     avatar: "path",
     author: "Mykhailo Jonson",
     date: "Posted on 27th January 2022",
@@ -42,8 +54,10 @@ const sites = [
     title: "8 Figma design systems you can download for free today",
     text: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
     blog: "text",
+    icon: <CategoryFourth />,
   },
   {
+    id: 4,
     avatar: "path",
     author: "Michael Jordan",
     date: "Posted on 27th January 2022",
@@ -53,8 +67,10 @@ const sites = [
     title: "Font sizes in UI design: The complete guide to follow",
     text: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
     blog: "text",
+    icon: <CategoryThird />,
   },
   {
+    id: 5,
     avatar: "path",
     author: "Bred Pitt",
     date: "Posted on 27th January 2022",
@@ -64,8 +80,10 @@ const sites = [
     title: "8 Figma design systems you can download for free today",
     text: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
     blog: "text",
+    icon: <CategoryFourth />,
   },
   {
+    id: 6,
     avatar: "path",
     author: "Andrew Khtozna",
     date: "Posted on 27th January 2022",
@@ -75,8 +93,10 @@ const sites = [
     title: "Logo design trends to avoid in 2022",
     text: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
     blog: "text",
+    icon: <CategorySecond />,
   },
   {
+    id: 7,
     avatar: "path",
     author: "Andrew theBest",
     date: "Posted on 27th January 2022",
@@ -86,8 +106,10 @@ const sites = [
     title: "Font sizes in UI design: The complete guide to follow",
     text: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
     blog: "text",
+    icon: <CategoryThird />,
   },
   {
+    id: 8,
     avatar: "path",
     author: "Lebron Jonson",
     date: "Posted on 27th January 2022",
@@ -97,8 +119,10 @@ const sites = [
     title: "Font sizes in UI design: The complete guide to follow",
     text: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
     blog: "text",
+    icon: <CategoryThird />,
   },
   {
+    id: 9,
     avatar: "path",
     author: "Andrew Whigger",
     date: "Posted on 27th January 2022",
@@ -108,8 +132,10 @@ const sites = [
     title: "Font sizes in UI design: The complete guide to follow",
     text: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
     blog: "text",
+    icon: <CategoryThird />,
   },
   {
+    id: 10,
     avatar: "path",
     author: "Subota Wednesday",
     date: "Posted on 27th January 2022",
@@ -119,6 +145,7 @@ const sites = [
     title: "Font sizes in UI design: The complete guide to follow",
     text: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
     blog: "text",
+    icon: <CategoryThird />,
   },
 ];
 export default sites;
