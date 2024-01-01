@@ -24,6 +24,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contacts" element={<Contact />} />
           <Route path="/privacy" element={<Privacy />} />
+          <Route path="*" element={<p>error 404</p>}/>
         </Routes>
       </Suspense>
       <Footer />

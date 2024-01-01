@@ -10,7 +10,6 @@ function AppBar() {
         <Logo />
       </NavLink>
       <nav>
-        <NavLink to="/"></NavLink>
         <Link />
       </nav>
       <button type="button">Subscribe</button>
