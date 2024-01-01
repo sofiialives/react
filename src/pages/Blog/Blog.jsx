@@ -6,12 +6,12 @@ import { Join } from "../../components/Home/Join/Join";
 
 function Blog() {
   return (
-    <>
+    <main>
       <Hero />
       <All />
       <Category />
       <Join />
-    </>
+    </main>
   );
 }
 

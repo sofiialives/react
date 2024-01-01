@@ -12,14 +12,14 @@ function BlogDetails() {
   const { blogId } = useParams();
 
   return (
-    <div>
+    <main>
       <Link to={backLinkHref.current}>&#8592; Go Back</Link>
       <Preview blogId={blogId} />
       <Image blogId={blogId} />
       <Blog blogId={blogId} />
       <Other />
       <Join />
-    </div>
+    </main>
   );
 }
 
